@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "fullpage.js": "^2.9.6",
     "jquery": "^1.9.1",
     "popper.js": "^1.12.9"
   }
