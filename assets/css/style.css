@@ -1,16 +1,31 @@
 body {
   color: #fff; }
 
+header {
+  position: fixed;
+  z-index: 1; }
+
 #section-1 {
   background-color: #ff5f45; }
 
 #section-2 {
   background-color: #0798ec; }
+  #section-2 .slide {
+    text-align: center; }
 
 #section-3 {
   background-color: #fc6c7c; }
 
 #section-4 {
   background-color: #fec401; }
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #fff; }
+
+.contenedor-mano {
+  width: 100%;
+  float: left;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
