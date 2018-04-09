@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		navigation: true
+		navigation: true,
+		showActiveTooltip: true,
+		dragAndMove: true
 	});
 
 	$('.grid').isotope({
