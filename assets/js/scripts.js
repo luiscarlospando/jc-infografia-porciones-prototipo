@@ -2,7 +2,10 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		navigation: true,
 		showActiveTooltip: true,
-		dragAndMove: true
+		dragAndMove: true,
+		paddingTop: '50px',
+		paddingBottom: '50px',
+		recordHistory: false
 	});
 
 	$('.grid').isotope({
