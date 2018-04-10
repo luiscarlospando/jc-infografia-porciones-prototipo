@@ -61,18 +61,6 @@ header {
 #section-1 {
     background-color: #ff5f45;
 
-    // background: -webkit-gradient(linear, top left, bottom left, from(#ff5f45), to(#0798ec));
-	// background: -webkit-linear-gradient(#ff5f45, #0798ec);
-    // background: linear-gradient(#ff5f45,#0798ec);
-}
-
-#section-2 {
-    background-color: #0798ec;
-
-    // background: -webkit-gradient(linear, top left, bottom left, from(#0798ec), to(#fc6c7c));
-	// background: -webkit-linear-gradient(#0798ec, #fc6c7c);
-    // background: linear-gradient(#0798ec,#fc6c7c);
-
     .slide {
         text-align: center;
 
@@ -82,13 +70,9 @@ header {
     }
 }
 
-#section-3 {
-    background-color: #fc6c7c;
-
-    // background: -webkit-gradient(linear, top left, bottom left, from(#fc6c7c), to(#fec401));
-	// background: -webkit-linear-gradient(#fc6c7c, #fec401);
-    // background: linear-gradient(#fc6c7c,#fec401);
-
+#section-2 {
+    background-color: #0798ec;
+    
     /* ---- button ---- */
 
     .button {
@@ -221,12 +205,12 @@ header {
     }
 }
 
-#section-4 {
-    background-color: #fec401;
+#section-3 {
+    background-color: #fc6c7c;
 }
 
-#section-5 {
-    background: url('../images/space-wallpaper-11.jpg') no-repeat;
+#section-4 {
+    background-color: #fec401;
 }
 
 #fp-nav ul li a span,

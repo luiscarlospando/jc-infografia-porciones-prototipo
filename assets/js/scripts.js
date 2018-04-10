@@ -5,8 +5,7 @@ $(document).ready(function() {
 		dragAndMove: true,
 		paddingTop: '50px',
 		paddingBottom: '50px',
-		recordHistory: false,
-		easingcss3: 'ease-out'
+		recordHistory: false
 	});
 
 	$('.grid').isotope({
