@@ -5,7 +5,9 @@ $(document).ready(function() {
 		dragAndMove: true,
 		paddingTop: '50px',
 		paddingBottom: '50px',
-		recordHistory: false
+		recordHistory: false,
+		anchors: ['section-1', 'section-5', 'section-2','section-3'],
+		menu: '.main-nav ul'
 	});
 
 	$('.grid').isotope({

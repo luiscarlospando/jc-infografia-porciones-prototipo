@@ -4,7 +4,33 @@ body {
 
 header {
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    padding: 15px 0;
+
+    a,
+    a:hover,
+    a:focus,
+    a:active,
+    a:visited {
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .main-nav {
+        ul {
+            margin: 0;
+
+            li {
+                display: inline-block;
+            }
+        }
+    }
 }
 
 #fp-nav.right {
@@ -64,9 +90,24 @@ header {
     .slide {
         text-align: center;
 
-        img {
+        object {
             width: 40%;
         }
+    }
+}
+
+#section-5 {
+    background-color: #ff5f45;
+    text-align: center;
+
+    object {
+        width: 40%;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
     }
 }
 
