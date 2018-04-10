@@ -27,7 +27,6 @@
     "fullpage.js": "^2.9.6",
     "isotope-layout": "^3.0.6",
     "jquery": "^1.9.1",
-    "popper.js": "^1.12.9",
-    "snapsvg": "^0.5.1"
+    "popper.js": "^1.12.9"
   }
 }

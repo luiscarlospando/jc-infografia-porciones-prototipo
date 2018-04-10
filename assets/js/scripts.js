@@ -2,11 +2,10 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		navigation: true,
 		showActiveTooltip: true,
-		dragAndMove: true,
 		paddingTop: '50px',
 		paddingBottom: '50px',
 		recordHistory: false,
-		anchors: ['section-1', 'section-5', 'section-2','section-3'],
+		anchors: ['pagina-1', 'pagina-2', 'pagina-3','pagina-4'],
 		menu: '.main-nav ul'
 	});
 
@@ -56,4 +55,4 @@ function concatValues( obj ) {
 		value += obj[ prop ];
 	}
 	return value;
-}  
+}
