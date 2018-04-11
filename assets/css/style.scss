@@ -38,37 +38,50 @@ header {
 }
 
 /* Hacks para cambiar efecto slide a fade */
-/* Hack 1 */
+/* Hack 1 (Scroll) */
 .fullpage-wrapper {
-	width: 100%!important;
-	transform: none!important;
+	width: 100% !important;
+	transform: none !important;
 }
 
 .fp-section {
-	width: 100%!important;
+	width: 100% !important;
 	position: absolute;
 	left: 0;
-	top: 0;
-	visibility: hidden;
-	opacity: 0;
-	z-index: 0;
-	transition: all .7s ease-in-out;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 0;
+    // transition: all .7s ease-in-out;
+
+    .container {
+        visibility: hidden;
+        opacity: 0;
+        z-index: 0;
+        transition: all .7s ease-in-out;
+    }
 }
 
 .fp-section.active {
-	visibility: visible;
-	opacity: 1;
-	z-index: 1;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    
+    .container {
+        visibility: visible;
+    	opacity: 1;
+	    z-index: 1;
+    }
 }
 
-/* Hack 2 */
+/* Hack 2 (Slides) */
 .fp-slidesContainer {
-	width: 100%!important;
-	transform: none!important;
+	width: 100% !important;
+	transform: none !important;
 }
 
 .fp-slide {
-	width: 100%!important;
+	width: 100% !important;
 	position: absolute;
 	left: 0;
 	top: 0;
