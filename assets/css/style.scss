@@ -2,7 +2,8 @@ body {
     color: #fff;
 }
 
-header {
+header,
+footer {
     position: fixed;
     z-index: 1000;
     width: 100%;
@@ -39,40 +40,40 @@ header {
 
 /* Hacks para cambiar efecto slide a fade */
 /* Hack 1 (Scroll) */
-.fullpage-wrapper {
-	width: 100% !important;
-	transform: none !important;
-}
+// .fullpage-wrapper {
+// 	width: 100% !important;
+// 	transform: none !important;
+// }
 
-.fp-section {
-	width: 100% !important;
-	position: absolute;
-	left: 0;
-    top: 0;
-    visibility: hidden;
-    opacity: 0;
-    z-index: 0;
-    // transition: all .7s ease-in-out;
+// .fp-section {
+// 	width: 100% !important;
+// 	position: absolute;
+// 	left: 0;
+//     top: 0;
+//     visibility: hidden;
+//     opacity: 0;
+//     z-index: 0;
+//     // transition: all .7s ease-in-out;
 
-    .container {
-        visibility: hidden;
-        opacity: 0;
-        z-index: 0;
-        transition: all .7s ease-in-out;
-    }
-}
+//     .container {
+//         visibility: hidden;
+//         opacity: 0;
+//         z-index: 0;
+//         transition: all .7s ease-in-out;
+//     }
+// }
 
-.fp-section.active {
-    visibility: visible;
-    opacity: 1;
-    z-index: 1;
+// .fp-section.active {
+//     visibility: visible;
+//     opacity: 1;
+//     z-index: 1;
     
-    .container {
-        visibility: visible;
-    	opacity: 1;
-	    z-index: 1;
-    }
-}
+//     .container {
+//         visibility: visible;
+//     	opacity: 1;
+// 	    z-index: 1;
+//     }
+// }
 
 /* Hack 2 (Slides) */
 .fp-slidesContainer {
@@ -115,12 +116,12 @@ header {
 
     object {
         width: 40%;
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
+        // -moz-transform: scaleX(-1);
+        // -o-transform: scaleX(-1);
+        // -webkit-transform: scaleX(-1);
+        // transform: scaleX(-1);
+        // filter: FlipH;
+        // -ms-filter: "FlipH";
     }
 }
 
