@@ -44,6 +44,7 @@ header {
 }
 
 footer {
+    background-color: #fff;
     bottom: 0;
 }
 
@@ -281,8 +282,16 @@ footer {
     background-color: #fc6c7c;
     color: #333;
 
-    .card {
+    .media {
         opacity: 0;
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 2px 2px 6px 0px;
+        margin: 15px 0;
+        
+        img {
+            border-radius: 50%;
+        }
     }
 }
 

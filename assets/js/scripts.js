@@ -10,7 +10,7 @@ $(document).ready(function() {
 		menu: '.main-nav ul',
 		fixedElements: '.header, .footer',
 		paddingTop: '30px',
-		paddingBottom: '35px'
+		paddingBottom: '55px'
 	});
 
 	// isotope
@@ -22,10 +22,10 @@ $(document).ready(function() {
 
 	// animate.css
 	var index = 0;
-	var total = $(".card").length;
+	var total = $(".media").length;
 
 	$(".animar").click(function () {
-		$(".card").eq(index).addClass("current animated fadeInDown");
+		$(".media").eq(index).addClass("current animated fadeInUp");
 		index = (index + 1) % total;
 	});
 });
