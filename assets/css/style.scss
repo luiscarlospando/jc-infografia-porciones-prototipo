@@ -33,13 +33,18 @@ header {
             li {
                 display: inline-block;
             }
+
+            li.active {
+                a {
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }
 
 footer {
     bottom: 0;
-    background-color: #fff;
 }
 
 #fp-nav.right {
@@ -104,6 +109,10 @@ footer {
 	visibility: visible;
 	opacity: 1;
 	z-index: 1;
+}
+
+#portada {
+    background-color: #ff5f45;
 }
 
 #section-1 {
@@ -274,6 +283,14 @@ footer {
 
 #section-4 {
     background-color: #fec401;
+}
+
+#section-foot {
+    color: #333;
+
+    p {
+        margin: 0;
+    }
 }
 
 #fp-nav ul li a span,

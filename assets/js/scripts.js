@@ -5,7 +5,7 @@ $(document).ready(function() {
 		paddingTop: '50px',
 		paddingBottom: '50px',
 		recordHistory: false,
-		anchors: ['pagina-1', 'pagina-2', 'pagina-3','pagina-4'],
+		anchors: ['pagina-1', 'pagina-2', 'pagina-3','pagina-4', 'pagina-5'],
 		menu: '.main-nav ul',
 		fixedElements: '.header, .footer',
 		paddingTop: '30px',
