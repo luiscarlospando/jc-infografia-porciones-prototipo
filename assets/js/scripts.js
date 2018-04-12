@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	// fullPage.js
 	$('#fullpage').fullpage({
 		navigation: true,
 		showActiveTooltip: true,
@@ -12,10 +13,20 @@ $(document).ready(function() {
 		paddingBottom: '35px'
 	});
 
+	// isotope
 	$('.grid').isotope({
 		// options
 		itemSelector: '.grid-item',
 		layoutMode: 'fitRows'
+	});
+
+	// animate.css
+	var index = 0;
+	var total = $(".card").length;
+
+	$(".animar").click(function () {
+		$(".card").eq(index).addClass("current animated fadeInDown");
+		index = (index + 1) % total;
 	});
 });
 
