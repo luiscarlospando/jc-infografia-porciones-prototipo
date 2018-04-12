@@ -6,7 +6,10 @@ $(document).ready(function() {
 		paddingBottom: '50px',
 		recordHistory: false,
 		anchors: ['pagina-1', 'pagina-2', 'pagina-3','pagina-4'],
-		menu: '.main-nav ul'
+		menu: '.main-nav ul',
+		fixedElements: '.header, .footer',
+		paddingTop: '30px',
+		paddingBottom: '35px'
 	});
 
 	$('.grid').isotope({

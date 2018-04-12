@@ -7,8 +7,11 @@ footer {
     position: fixed;
     z-index: 1000;
     width: 100%;
-    top: 0;
     padding: 15px 0;
+}
+
+header {
+    top: 0;
 
     a,
     a:hover,
@@ -32,6 +35,11 @@ footer {
             }
         }
     }
+}
+
+footer {
+    bottom: 0;
+    background-color: #fff;
 }
 
 #fp-nav.right {
