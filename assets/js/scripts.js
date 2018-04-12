@@ -10,7 +10,8 @@ $(document).ready(function() {
 		menu: '.main-nav ul',
 		fixedElements: '.header, .footer',
 		paddingTop: '30px',
-		paddingBottom: '55px'
+		paddingBottom: '55px',
+		scrollOverflow: true
 	});
 
 	// isotope
