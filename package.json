@@ -23,6 +23,7 @@
     "browser-sync": "^2.18.13"
   },
   "dependencies": {
+    "animate.css": "^3.6.1",
     "bootstrap": "^4.0.0",
     "fullpage.js": "^2.9.6",
     "isotope-layout": "^3.0.6",
